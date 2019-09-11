@@ -1,0 +1,24 @@
+[submodule "axis_camera"]
+	path = axis_camera
+	url = https://github.com/ros-drivers/axis_camera
+[submodule "axis_imu"]
+	path = axis_imu
+	url = https://gitlab.liu.se/axis/axis_imu.git
+[submodule "camera_info_manager_py"]
+	path = camera_info_manager_py
+	url = https://github.com/ros-perception/camera_info_manager_py.git
+[submodule "image_common"]
+	path = image_common
+	url = https://github.com/ros-perception/image_common.git
+[submodule "image_pipeline"]
+	path = image_pipeline
+	url = https://github.com/ros-perception/image_pipeline.git
+[submodule "image_transport_plugins"]
+	path = image_transport_plugins
+	url = https://github.com/ros-perception/image_transport_plugins.git
+[submodule "inertial_sense_ros"]
+	path = inertial_sense_ros
+	url = https://github.com/inertialsense/inertial_sense_ros.git
+
+
+
