@@ -1,0 +1,17 @@
+<launch>
+    <node name="test"
+          pkg="axis_imu"
+          type="axis_imu"
+          args="_camera_ip:=192.168.0.91 _port:=5001 _driver_ip:=192.168.0.1"
+          ns="camera1/"/>
+    <node name="test"
+          pkg="axis_imu"
+          type="axis_imu"
+          args="_camera_ip:=192.168.0.92 _port:=5002 _driver_ip:=192.168.0.1"
+          ns="camera2/"/>
+    <node name="test"
+          pkg="axis_imu"
+          type="axis_imu"
+          args="_camera_ip:=192.168.0.93 _port:=5003 _driver_ip:=192.168.0.1"
+          ns="camera3/"/>
+</launch>

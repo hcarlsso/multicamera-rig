@@ -22,3 +22,21 @@
 
 
 
+[submodule "pluginlib"]
+	path = pluginlib
+	url = https://github.com/ros/pluginlib.git
+[submodule "qt_gui_core"]
+	path = qt_gui_core
+	url = https://github.com/ros-visualization/qt_gui_core.git
+[submodule "rqt"]
+	path = rqt
+	url = https://github.com/ros-visualization/rqt.git
+[submodule "rqt_common_plugins"]
+	path = rqt_common_plugins
+	url = https://github.com/ros-visualization/rqt_common_plugins.git
+[submodule "rqt_robot_plugins"]
+	path = rqt_robot_plugins
+	url = https://github.com/ros-visualization/rqt_robot_plugins.git
+[submodule "class_loader"]
+	path = class_loader
+	url = https://github.com/ros/class_loader.git
